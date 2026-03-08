@@ -10,7 +10,7 @@ export const About = () => {
         <h2>About Me</h2>
         <div className={styles.text}>
           <p>
-            I'm a Software Development Engineer II at Audible with 5+ years of experience
+            I'm a Senior Software Development Engineer (SDE III) at Audible with 5+ years of experience
             building robust backend systems and scalable cloud applications.
           </p>
           <p>

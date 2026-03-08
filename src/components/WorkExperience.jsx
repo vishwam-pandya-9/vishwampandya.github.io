@@ -7,10 +7,10 @@ export const WorkExperience = () => {
   const roles = [
     {
       id: 1,
-      title: 'Software Development Engineer II',
+      title: 'Senior Software Development Engineer (SDE III)',
       company: 'Audible Inc',
       location: 'Newark, NJ',
-      period: '02/2021 – Present',
+      period: '02/2026 – Present',
       description: 'Working with the Content Management Engineering Team as a CMS developer for metadata ingestion and management.',
       icon: '🎧'
     },

@@ -16,7 +16,7 @@
 
 .timeline {
   position: relative;
-  padding: 0;
+  padding: 2rem 0;
 }
 
 .timeline::before {
@@ -25,14 +25,16 @@
   left: 40px;
   top: 0;
   bottom: 0;
-  width: 2px;
+  width: 3px;
   background: linear-gradient(180deg, var(--accent) 0%, transparent 100%);
+  z-index: 0;
 }
 
 .timelineItem {
   position: relative;
   margin-bottom: 2rem;
   margin-left: 120px;
+  z-index: 1;
 }
 
 .marker {
