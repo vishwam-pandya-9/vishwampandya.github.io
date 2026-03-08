@@ -49,7 +49,7 @@ export const WorkExperience = () => {
         <h2>Work Experience</h2>
         <div className={styles.timeline}>
           {roles.map((role, index) => (
-            <div key={role.id} className={`${styles.timelineItem} stagger`}>
+            <div key={role.id} className={styles.timelineItem}>
               <div className={styles.marker}>
                 <div className={styles.icon}>{role.icon}</div>
               </div>
