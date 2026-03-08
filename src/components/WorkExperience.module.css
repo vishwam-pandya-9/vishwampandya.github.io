@@ -1,0 +1,156 @@
+.experience {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, transparent 100%);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.timeline {
+  position: relative;
+  padding: 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent) 0%, transparent 100%);
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-left: 120px;
+}
+
+.marker {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: var(--bg-glass);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.content {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.content:hover {
+  transform: translateX(8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--text-primary);
+}
+
+.period {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  padding: 0.25rem 0.75rem;
+  background: var(--accent-light);
+  border-radius: 12px;
+}
+
+.company {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.location {
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.description {
+  color: var(--text-secondary);
+  margin: 1rem 0 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 4rem 2rem;
+  }
+
+  .experience h2 {
+    font-size: 1.8rem;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timelineItem {
+    margin-left: 60px;
+  }
+
+  .marker {
+    left: -60px;
+    width: 60px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .period {
+    align-self: flex-start;
+  }
+}
