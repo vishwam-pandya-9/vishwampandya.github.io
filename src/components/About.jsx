@@ -12,16 +12,17 @@ export const About = () => {
           <div className={styles.text}>
             <p>
               I'm a Senior Software Development Engineer (SDE III) at Audible with 5+ years of experience
-              building scalable applications and designing elegant user interfaces.
+              building robust backend systems and scalable cloud applications.
             </p>
             <p>
-              My expertise spans full-stack development with a strong focus on React, Node.js, and cloud technologies.
-              Recently, I've been diving deep into generative AI and machine learning, exploring how LLMs can transform
-              the way we build software.
+              My core expertise is in backend development with Node.js, Python, and distributed systems.
+              I'm passionate about agentic solutions and have worked extensively with Kiro (Amazon's Agentic Framework),
+              building intelligent systems that leverage LLMs. I'm also a "vibe coder" with frontend—comfortable shipping
+              beautiful UIs when needed, but most energized by solving complex backend challenges.
             </p>
             <p>
-              When I'm not coding, I'm probably reading about the latest AI breakthroughs, contributing to open-source projects,
-              or brainstorming the next big idea.
+              I love experimenting with agents, exploring how AI can enhance backend systems, and building systems
+              that scale. When not coding, I'm diving into the latest agentic frameworks or contributing to open-source projects.
             </p>
           </div>
 
@@ -29,30 +30,33 @@ export const About = () => {
             <h3>Skills & Technologies</h3>
             <div className={styles.skillsList}>
               <div className={styles.skillGroup}>
-                <h4>Frontend</h4>
-                <div className={styles.tags}>
-                  <span>React</span>
-                  <span>TypeScript</span>
-                  <span>Tailwind CSS</span>
-                  <span>Vue</span>
-                </div>
-              </div>
-              <div className={styles.skillGroup}>
                 <h4>Backend</h4>
                 <div className={styles.tags}>
                   <span>Node.js</span>
                   <span>Python</span>
                   <span>PostgreSQL</span>
                   <span>MongoDB</span>
+                  <span>AWS</span>
+                  <span>Microservices</span>
                 </div>
               </div>
               <div className={styles.skillGroup}>
-                <h4>AI/ML</h4>
+                <h4>Agents & AI</h4>
                 <div className={styles.tags}>
+                  <span>Kiro</span>
                   <span>LLMs</span>
+                  <span>Agentic Frameworks</span>
                   <span>Prompt Engineering</span>
-                  <span>GenAI</span>
-                  <span>APIs</span>
+                  <span>GenAI APIs</span>
+                </div>
+              </div>
+              <div className={styles.skillGroup}>
+                <h4>Frontend</h4>
+                <div className={styles.tags}>
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Tailwind CSS</span>
+                  <span>Vue</span>
                 </div>
               </div>
             </div>

@@ -15,19 +15,19 @@ export const Contact = () => {
         <div className={`${styles.card} glass`}>
           <div className={styles.content}>
             <p>
-              Whether you want to collaborate on a project, discuss the latest in AI/ML,
+              Whether you want to collaborate on backend systems, discuss agentic solutions,
               or just grab a virtual coffee, I'd love to hear from you!
             </p>
 
             <div className={styles.links}>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:vishwamjp@gmail.com"
                 className={styles.link}
               >
                 📧 Email
               </a>
               <a
-                href="https://github.com/pandyax"
+                href="https://github.com/vishwam-pandya-9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.link}
@@ -35,20 +35,12 @@ export const Contact = () => {
                 💻 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/vishwam-pandya"
+                href="https://www.linkedin.com/in/vishwampandya/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.link}
               >
                 💼 LinkedIn
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.link}
-              >
-                𝕏 Twitter
               </a>
             </div>
           </div>
