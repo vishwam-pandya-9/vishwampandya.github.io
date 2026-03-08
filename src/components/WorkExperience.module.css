@@ -97,22 +97,26 @@
 }
 
 .company {
-  color: var(--text-primary);
+  color: var(--text-primary) !important;
   font-weight: 600;
   margin: 0.5rem 0;
   font-size: 0.95rem;
 }
 
 .location {
-  color: var(--text-secondary);
+  color: var(--text-secondary) !important;
   font-weight: 400;
 }
 
 .description {
-  color: var(--text-secondary);
+  color: var(--text-secondary) !important;
   margin: 1rem 0 0 0;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+.header h3 {
+  color: var(--text-primary) !important;
 }
 
 @media (max-width: 768px) {

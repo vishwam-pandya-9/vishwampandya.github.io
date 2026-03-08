@@ -27,7 +27,6 @@ export const Hero = () => {
             </a>
           </div>
         </div>
-        <div className={styles.gradient}></div>
       </div>
     </section>
   );
