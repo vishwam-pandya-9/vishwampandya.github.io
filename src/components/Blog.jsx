@@ -15,7 +15,7 @@ export const Blog = () => {
 
         <div className={styles.posts}>
           {blogPosts.map((post) => (
-            <article key={post.id} className={`${styles.post} glass stagger`}>
+            <article key={post.id} className={`${styles.post} glass`}>
               <div className={styles.date}>
                 {new Date(post.date).toLocaleDateString('en-US', {
                   year: 'numeric',
